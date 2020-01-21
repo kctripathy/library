@@ -8,7 +8,7 @@ class AppNavigation extends Component {
             <>
                 <Navbar bg="primary" variant="dark" expand="lg">
                     <Navbar.Brand href="/">
-                        LIBRARY
+                        REACT
                         {/* <img src='http://tsdcollege.in/Images/TSDC-WEB-HEAD-NAV-BAR-50.jpg' alt="Lib" /> */}
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -16,8 +16,8 @@ class AppNavigation extends Component {
                         <Nav className="mr-auto" fill>
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="about">About</Nav.Link>
-                            <Nav.Link href="books">Books</Nav.Link>
-                            <NavDropdown title="Librarian" id="basic-nav-dropdown">
+                            <Nav.Link href="books">Menu1</Nav.Link>
+                            <NavDropdown title="Menu2" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="book-search">Search</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="book-issue">Issue a Book to student/staff</NavDropdown.Item>
@@ -28,7 +28,7 @@ class AppNavigation extends Component {
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="books">View all the Books </NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title="Admin" id="basic-nav-dropdown">
+                            <NavDropdown title="Menu3" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="admin">Dashboard</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>

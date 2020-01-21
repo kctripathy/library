@@ -1,0 +1,9 @@
+export const BOOK_FETCH_REQUEST = 'BOOK_FETCH_REQUEST';
+export const BOOK_FETCH_SUCCESS = 'BOOK_FETCH_SUCCESS';
+export const BOOK_FETCH_FAILURE = 'BOOK_FETCH_FAILURE';
+
+export const BOOK_ADD = 'BOOK_ADD';
+export const BOOK_ISSUE = 'BOOK_ISSUE';
+export const BOOK_RECEIVE = 'BOOK_RECEIVE';
+export const BOOK_DETAILS = 'BOOK_DETAILS';
+export const BOOK_REMOVE = 'BOOK_REMOVE';
